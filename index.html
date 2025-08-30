@@ -617,11 +617,11 @@
                         semesterDiv.classList.add('semester-inputs');
                         semesterDiv.innerHTML = `
                             <div class="input-group">
-                                <label for="gpa-sem-${i}">Semester ${i} GPA</label>
+                                <label for="gpa-sem-${i}">Semester ${i}</label>
                                 <input type="number" min="0" max="4" step="0.01" id="gpa-sem-${i}" placeholder="GPA for semester ${i}">
                             </div>
                             <div class="input-group">
-                                <label for="credits-sem-${i}">Semester ${i} Credit Hours</label>
+        
                                 <input type="number" min="1" id="credits-sem-${i}" placeholder="Credit hours for semester ${i}">
                             </div>
                         `;
@@ -825,4 +825,5 @@
         });
     </script>
 </body>
+
 </html>
